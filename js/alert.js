@@ -1,0 +1,1 @@
+alert("Activa Radio cambió de look , algunas funcionalidades no estarán disponibles, ¡Descuida! podrás escuchar la transmisión sin problema.");

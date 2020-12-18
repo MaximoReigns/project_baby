@@ -1,0 +1,232 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&display=swap');*/
+
+:root{
+    /*------ Colores */
+    --green-color: #7ACC2D;
+    --black-color: #313337;
+    --white-color: white;
+    /*------ Tipografía */
+    --normal:12px;
+    /*------ Espaciado */
+    --space:10px;
+    --space-2:20px;
+    /*------ Box shadow*/
+    --box:0px 0 2px 1px #e6e5e9;
+  }
+  html,body{
+      padding: 0%;
+      margin: 0%;
+      font-size: 18px;
+      font-family: 'Butterfly Kids', cursive;
+      background-color: white;
+  }
+  
+  /*----MAIN TAREAS---*/
+
+  .main__tareas{
+    background-image: url(../images/background-clubtareas.jpg);
+    background-repeat: no-repeat;
+    background-position: center -90px;
+    background-size: cover;
+    padding-bottom: 25px;
+    padding-top: 45px;
+    text-align: end;
+    padding-right: 90px;
+  }
+
+  .description{
+    background-image: url(../images/bg-green.gif);
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-position: top;
+    margin: 0px;
+  }
+
+  .description h2{
+    text-align: center;
+    color: var(--black-color);
+    margin: 0px;
+    padding-top: 20px;
+  }
+
+  .box{
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(../images/background-kidsland-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: cornsilk;
+  }
+
+  .box__left p,
+  .box__center p ,
+  .box__right p{
+    text-align: center;
+  }
+
+  .box__left h3,
+  .box__center h3 {
+    padding-left: 100px;
+    color: gold;
+  }
+
+  .box__right h3{
+    padding-left: 125px;
+    color: gold;
+  }
+
+  .logros{
+    background-image: url(../images/background_oso.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .logros h2{
+    background-image: url(../images/bg-pink.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 55px;
+    padding-bottom: 45px;
+    margin: 0px;
+  }
+
+  .logros__box-left h3,
+  .logros__box-right h3{
+    text-align: center;
+    color: coral;
+    font-size: 30px;
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .logros__box-left p{
+    text-align: center;
+  }
+
+  .logros__box-right{
+    background-image: url(../images/bg-video.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    padding: 25vh;
+    
+  }
+
+
+  /*------Footer-----------*/
+
+  footer{
+    background: #f1f1f1;
+    padding: 90px 0px;
+  }
+  
+  .footer-container{
+    max-width: 1300px;
+    margin: -35px 0px 0px 0px;
+    padding: 0px 30px 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+  }
+  
+  .logo{
+    width: 180px;
+  }
+  
+  .social-media{
+    margin: 20px 0;
+  }
+  
+  .social-media-text{
+    margin: 15px 0px 0px 0px
+  }
+  
+  .social-media a{
+    color: #001a21;
+    margin: 8px 25px 0px 0px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: .3s linear;
+  }
+  
+  .social-media a:hover{
+    color: #fc5c65;
+  }
+  
+  .right-col h1{
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  
+  .rights-text{
+    margin: 8px 0px 0px 0px;
+  }
+  
+  .right-col-p{
+    margin: 20px 0px 10px 0px;
+  }
+  
+  .border{
+    width: 100px;
+    height: 4px;
+    background: #fc5c65;
+  }
+  
+  .newsletter-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .txtb{
+    flex: 1;
+    padding: 16px 0px 20px 40px;
+    font-size: 16px;
+    color: #293043;
+    background: #ddd;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    min-width: 260px;
+  }
+  
+  .btn{
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #f1f1f1;
+    background: #fc5c65;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: opacity .3s linear;
+  }
+  
+  .btn:hover{
+    opacity: .7;
+  }
+  
+  .page-content{
+    min-height: 100vh;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

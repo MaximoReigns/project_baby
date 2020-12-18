@@ -1,0 +1,111 @@
+/* container>row>column */
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+.row{  /*Row se encarga de llevar las columnas de manera horizonal*/
+    display: flex;
+    border-top: 1px solid rgb(235, 231, 231) ;
+    border-right: 15px solid rgb(235, 231, 231);
+    border-left: 15px solid rgb(235, 231, 231) ;
+    border-bottom: 15px solid rgb(235, 231, 231) ;
+}
+
+.col-1{
+    width: 8.333333333333333%;
+}
+.col-2{
+    width: 16.66666666666667%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33333333333333%;
+}
+.col-5{
+    width: 41.66666666666667%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33333333333333%;
+}
+.col-8{
+    width: 66.66666666666666%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33333333333333%;
+}
+.col-11{
+    width: 91.66666666666666%;
+}
+.col-12{
+    width: 100%;
+}
+
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+    padding: 10px;
+}
+
+@media (max-width: 900px){ /* Indicamos que funcione de manera responsive*/
+    .row{
+        display: inherit;
+    }
+    .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+        width: 100%;
+        padding: 0px;
+    }
+}
+.mention{
+    padding: var(--space);
+}
+
+.content_mention{
+    box-shadow: 0px 0 2px 1px #e6e5e9;
+}
+.mention .text{
+    padding: var(--space);
+}
+
+.container_img{
+    background-image: url(../images/ranking.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+}
+.container_img2{
+    background-image: url(../images/wifi-signal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px;
+}
+.container_img3{
+    background-image: url(../images/bible.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px;
+}
+.container_img4{
+    background-image: url(../images/calendar.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110px;
+}
+/*-------Diferentes Grids---------*/
+.ram{ /*Repeat, Auto, Minmax*/
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .line-up { /*Esta clase está enlazada con .visual & .card*/
+    height: auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+  }

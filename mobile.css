@@ -1,0 +1,695 @@
+@media (max-width: 1024px){
+    /*----------------RESPONSIVE PARA INDEX----------------*/
+.main_section {
+  height: 39vh;
+  padding-left: 70px;
+  margin-bottom: 0px;
+}
+.container__text{
+  height: auto;
+  padding-right: 0px;
+  padding-top: 0px;
+}
+.container__text-h2 {
+  text-align: center;
+  padding: 0px;
+}
+.container__text-p2 {
+  font-size: 22px;
+  text-align: left;
+  padding-left: 250px;
+  padding-top: 20px;
+  padding-right: 40px;
+}
+/*----------------RESPONSIVE PARA BABY GYM----------------*/
+.typeform-share{
+  visibility: hidden;
+}
+.programs{
+  text-align: center;
+  grid-gap: 0rem;
+}
+.content__info-img img{
+  padding-top: 55px;
+  width: auto;
+}
+/*----------------RESPONSIVE PARA KIDS LAND----------------*/
+.logros__box{
+  display: block;
+}
+.logros__box-right{
+  padding: 12vh;
+}
+.description{
+  background-size: 800px;
+  background-position: top;
+  margin: 0px;
+}
+.box,
+.box h3{
+  padding-left: 0px;
+  text-align: center;
+  font-size: 17px;
+}
+/*----------------RESPONSIVE PARA PROGRAMA PULSO----------------*/
+.container__pulso{
+  height: 40vh;
+}
+.container__pulso--main{
+padding-top: 130px;
+}
+.details__box--3{
+  background-size: 104% 52%;
+}
+.details__box--3 img{
+  width: 275px;
+}
+}
+@media (max-width: 768px){
+  /*----------------RESPONSIVE PARA INDEX----------------*/
+.main_section {
+    height: 50vh;
+    padding-left: 70px;
+    margin-bottom: 0px;
+  }
+.container__text{
+    height: auto;
+    padding-right: 0px;
+    padding-top: 0px;
+  }
+.container__text-h2 {
+    text-align: center;
+    padding: 0px;
+}
+.container__text-p2 {
+    font-size: 22px;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+.typeform-share{
+  visibility: hidden;
+  }
+/*----------------RESPONSIVE PARA BABY GYM----------------*/
+.content__info {
+  display: block;
+}
+.content__info-text {
+  color: #006797;
+  text-align: left;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+.content__info-img{
+    visibility: hidden;
+    height: 0px;
+}
+/*----------------RESPONSIVE PARA KIDS LAND----------------*/
+.main__tareas img{
+  width: 300px;
+}
+/*----------------RESPONSIVE PARA PROYECTO HUERTO-----------*/
+.container__huerto{
+background-position: left;
+}
+.box__info{
+  background-size: cover;
+  background-position: inherit;
+  padding: 2vh;
+}
+.box__info-left,
+.box__info-right ul{
+  text-align: justify;
+  padding-left: 10px;
+}
+.tipos__huerto-left{
+  display: block;
+  text-align: justify;
+}
+.huerto__imagen{
+  text-align: center;
+  padding:10px
+}
+.tipos__huerto-left p {
+  padding: 15px;
+  font-size: 20px;
+}
+/*----------------RESPONSIVE PARA PROGRAMA PULSO----------------*/
+.container__pulso{
+  height: 40vh;
+}
+.container__pulso--main{
+padding-top: 70px;
+}
+.details{
+display: block;
+}
+.baby-guitar{
+padding-top: 0px;
+padding-left: 280px;
+}
+.details__box--2{
+text-align: left;
+padding: 0px 70px;
+}
+.details__box--2 li{
+list-style: decimal;
+border: none;
+}
+.details__box--3{
+background-size: 48% 100%;
+background-position: center;
+padding-left: 230px;
+}
+.details__box--3 img{
+width: 300px;
+padding-bottom: 20px;
+}
+}
+@media (max-width:600px){
+  /*----------------RESPONSIVE PARA INDEX----------------*/
+  .main__section-horario img{
+    display: inherit;
+    height: auto;
+    margin: 0px 12px;
+  }
+    
+  .main__section-horario p{
+    margin: 0px 0px 0px -55px;
+  }
+    
+  .main_section{
+    background-image: url(../images/background-guarderia.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    margin-right: 0px;
+  }
+  .main__section-tittle{
+    padding-top: 90px;
+    font-size: 50px;  
+  }
+    
+  .main__section-tittle2{
+    font-size: 25px;
+    padding-right: 10px;
+    margin-right: 0px;
+  }
+    
+  .main__section-tittle2 span{
+    color: tomato;
+  }
+  .main_section h2{
+    margin: 0px -50px;
+  }
+  .container__text{
+    height: 90vh;
+    background-image: url(../images/banner_zapatitos.jpg);
+    background-repeat: no-repeat;
+    background-position: -512px 0px;
+    background-size: cover;
+  }
+    
+  .container__text-h2{
+    text-align: left;
+    padding-left: 32px;
+    background-image: url(../images/oveja.gif);
+    background-position: right;
+    background-size: 80px;
+    font-size: 40px;
+  }
+    
+  .container__text-p{
+    text-align: center;
+    margin-top: -35px;
+    padding-left: 20px;
+    font-size: 18px;
+  }
+  .container__text-p2{
+    margin: 27px 0px 0px -455px;
+    font-size: 18px;
+      }
+  .container__text-p3{
+    font-size: 18px;
+    text-align: end;
+  }
+  .typeform-share{
+    visibility: hidden;
+  }
+  /*----------------RESPONSIVE PARA INDEX----------------*/
+  .main__content-text img{
+    width: 500px;
+  }
+  .programs{
+    display: block;
+  }
+  .programs__kids-land,
+  .programs__proyecto-huerto,
+  .programs__baby-music,
+  .programs__baby-english{
+    padding-bottom: 80px;
+    background-position: center;
+  }
+/*----------------RESPONSIVE PARA KIDS LAND----------------*/
+.main__tareas{
+  background-position: top;
+}
+.main__tareas img{
+  width: 200px;
+}
+.description{
+  background-size: 600px;
+  background-position: top;
+  margin: 0px;
+}
+.description h2{
+  font-size: 35px;
+}
+.programs__baby-gym{
+  padding-bottom: 80px;
+  background-position: center;
+}
+/*----------------RESPONSIVE PARA PROYECTO HUERTO-----------*/
+.container__huerto-image img{
+  width: 400px;
+}
+.huerto__imagen img{
+  width: 450px;
+}
+/*----------------RESPONSIVE PARA PROGRAMA PULSO----------------*/
+.container__pulso--main{
+padding-top: 20px;
+}
+.container__pulso--main img{
+  width: 450px;
+}
+.title h2{
+background-image: none;
+}
+.baby-guitar{
+padding-top: 0px;
+padding-left: 195px;
+}
+
+.details__box--3{
+background-size: 48% 100%;
+background-position: center;
+padding-left: 175px;
+}
+.details__box--3 img{
+width: 230px;
+padding-bottom: 20px;
+}
+}
+@media (max-width: 540px){
+.container__text{
+  height: auto;
+  background-position: -300px center;
+}
+.container__text-h2 {
+  padding-top: 20px;
+  text-align: center;
+  padding-left: 0px;
+  background-image: url(../images/oveja.gif);
+  background-position: right;
+  background-size: 80px;
+  font-size: 40px;
+}
+.container__text-p {
+  text-align: center;
+  margin-top: -35px;
+  padding-left: 20px;
+  font-size: 18px;
+}
+.container__text-p2 {
+  margin: 27px 0px 0px 0px;
+  font-size: 19px;
+}
+/*-----------------------RESPONSIVE BABY GYM---------------------*/
+.main__content-text img{
+  width: 500px;
+}
+.content__info {
+  display: block;
+  margin-left: auto;
+}
+.content__info-img {
+  visibility: hidden;
+  height: 0px;
+  width: 0px;
+}
+/*----------------RESPONSIVE PARA KIDS LAND----------------*/
+/*--------------NO SE MODIFICO NADA PARA KIDS LAND---------*/
+
+/*----------------RESPONSIVE PARA PROYECTO HUERTO----------------*/
+.container__huerto-image img{
+  width: 400px;
+}
+.box__info h2{
+  font-size: 35px;
+}
+.huerto__imagen img{
+  width: 400px;
+}
+/*----------------RESPONSIVE PARA PROGRAMA PULSO----------------*/
+.details__box--3{
+background-size: 50% 94%;
+background-position: center;
+padding-left: 158px;
+}
+.details__box--3 img{
+width: 220px;
+padding-bottom: 20px;
+}
+}
+@media (max-width:414px){
+  /*----------------RESPONSIVE PARA INDEX----------------*/
+  .main__section-horario img{
+    display: inherit;
+    height: auto;
+    margin: 0px 0px 0px -170px;
+  }
+
+  .main__section-horario p{
+    margin: 0px 0px 0px -190px;
+  }
+
+  .container__text{
+    padding-right: 0px;
+    height: auto;
+    background-position: -520px 0px;
+  }
+  .container__text-h2{
+    text-align: center;
+    padding-top: 26px;
+    padding-left: 0px;
+    background-image: none;
+  }
+  .container__text-p{
+    font-size: 22px;
+  }
+/*----------------RESPONSIVE PARA BABY GYM----------------*/
+  .main__content-text img{
+    width: 390px;
+  }
+  .line-up h3{
+    font-size: 27px;
+  }
+  .line-up ul{
+    font-size: 15px;
+  }
+  .line-up img{
+    width: 80px;    
+  }
+  .programs__title h2{
+    background-size: 250%;
+  }
+/*----------------RESPONSIVE PARA KIDS LAND----------------*/
+.description{
+  background-size: 470px;
+}
+.description h2{
+  padding-top: 0px;
+  font-size: 30px;
+}
+.box{
+  display: block;
+}
+.box h3{
+  font-size: 22px;
+  text-align: center;
+}
+.box p{
+  text-align: justify;
+}
+/*----------------RESPONSIVE PARA PROYECTO HUERTO----------------*/
+.container__huerto-image img{
+  width: 200px;
+}
+.box__info h2{
+  font-size: 35px;
+  text-align: center;
+}
+.box__info p{
+  text-align: left;
+}
+.huerto__imagen img{
+  width: 280px;
+}
+/*----------------RESPONSIVE PARA PROGRAMA PULSO----------------*/
+.container__pulso--main{
+padding-top: 20px;
+height: 32vh;
+  }
+.container__pulso--main img{
+width: 400px;
+}
+.details__box--1 h3{
+font-size: 30px;
+padding-top: 60px;
+}
+.bear{
+margin-top: -68px;
+margin-left: -188px;
+}
+.baby-guitar{
+padding-top: 0px;
+padding-left: 112px;
+}
+.details__box--3{
+background-size: 67% 92%;
+background-position: center;
+padding-left: 90px;
+}
+.details__box--3 img{
+width: 230px;
+padding-bottom: 20px;
+}
+}
+@media (max-width:411px){
+  .main__content-text img{
+    width: 370px;
+  }
+/*-----------RESPONSIVE PARA KIDS LAND----------------------*/
+  .description h2 {
+    padding-top: 0px;
+    font-size: 28px;
+}
+/*----------------RESPONSIVE PARA PROGRAMA PULSO----------------*/
+}
+@media(max-width:375px){
+/*----------------RESPONSIVE PARA INDEX----------------*/
+.main__section-horario p {
+  margin: 0px 0px 0px -225px;
+}
+/*----------------RESPONSIVE PARA BABY GYM--------------*/
+.container__text{
+  background-position: -520px 0px;
+}
+.main__content-text img{
+  width: 340px;
+}
+.line-up ul{
+  font-size: 13px;
+}
+.line-up h3{
+  font-size: 25px;    
+}
+.line-up img{
+  width: 90px;    
+}
+/*----------------RESPONSIVE PARA PROYECTO HUERTO----------------*/
+.box__info h2{
+  font-size: 30px;
+  text-align: center;
+}
+.box__info p{
+  text-align: left;
+}
+.huerto__imagen img{
+  width: 250px;
+}
+/*----------------RESPONSIVE PARA PROGRAMA PULSO----------------*/
+.container__pulso--main{
+padding-top: 20px;
+height: 30vh;
+}
+.container__pulso--main img{
+width: 360px;
+}
+.details__box--1 p{
+padding-left: 25px;
+padding-right: 15px;
+}
+.bear{
+margin-top: -68px;
+margin-left: -188px;
+}
+.baby-guitar{
+padding-top: 0px;
+padding-left: 80px;
+}
+.details__box--2{
+  padding: 0px 30px;
+}
+.details__box--3{
+background-size: 75% 92%;
+background-position: center;
+padding-left: 70px;
+}
+.details__box--3 img{
+width: 230px;
+padding-bottom: 20px;
+}
+}
+@media (max-width:359px){
+  /*----------------RESPONSIVE PARA INDEX----------------*/
+  .typeform-share{
+    visibility: hidden;
+    }
+  .main__section-horario{
+    padding-left: 150px;
+    font-size: 15px;
+      }
+  .main__section-horario img{
+    display: inherit;
+    height: auto;
+    margin: 0px 0px;
+      }
+  .main_section{
+    background-image: url(../images/background-guarderia.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+    margin-right: 0px;
+    }
+  .main__section-tittle{
+    padding-top: 58px;
+    font-size: 40px;  
+    }
+  .main__section-tittle2{
+    font-size: 20px;
+    padding-right: 10px;
+    margin-right: 0px;
+    }
+    
+  .container__text{
+    background-image: url(../images/banner_zapatitos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 0px;
+    margin-top: -5px;
+    color: black;
+    height: auto;
+    }
+    
+  .container__text strong{
+    font-size: 15;
+    }
+  .container__text h2{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 4px;
+    }
+  .container__text-p2{
+    padding: 0px 38px 0px 465px;
+    }
+  .container__text-p2 p{
+    text-align: center;
+    }
+    /*----------------RESPONSIVE PARA PROYECTO HUERTO----------------*/
+.container__huerto-image img{
+  width: 200px;
+}
+.box__info h2{
+  font-size: 35px;
+  text-align: center;
+}
+.box__info p{
+  text-align: left;
+}.tipos__huerto-left h2{
+  font-size: 40px;
+}
+.huerto__imagen img{
+  width: 195px;
+}
+}
+@media (max-width:320px){
+  /*----------------RESPONSIVE PARA INDEX----------------*/
+  .main__section-horario img{
+    display: inherit;
+    height: auto;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .main__section-tittle{
+    padding-top: 90px;
+  }
+
+  .main__section-horario p{
+    margin: 0px 0px 0px -35px;
+  }
+
+  .container__text{
+    padding-right: 0px;
+  }
+  .container__text-h2{
+    text-align: center;
+    background-image: none;    
+    padding-right: 40px;
+  }
+  .container__text-p{
+    font-size: 22px;
+    padding-right: 25px;
+  }
+  .container__text-p2{
+    padding-left: 22px;
+    padding-right: 0px;
+  }
+  /*----------------RESPONSIVE PARA BABY GYM----------------*/
+  .main__content-text img{
+    width: 295px;
+  }
+  .line-up h3{
+    font-size: 20px;
+  }
+  .line-up ul{
+    font-size: 15px;
+  }
+  .line-up img{
+    width: 40px;    
+  }
+  .programs__title h2{
+    background-size: 250%;
+  }
+      /*----------------RESPONSIVE PARA PROYECTO HUERTO----------------*/
+.container__huerto-image img{
+  width: 150px;
+}
+.box__info h2{
+  font-size: 35px;
+  text-align: center;
+}
+.box__info p{
+  text-align: left;
+}.tipos__huerto-left h2{
+  font-size: 40px;
+}
+.huerto__imagen img{
+  width: 180px;
+}
+}
+@media (max-width: 280px){
+.main__section-horario p {
+    margin: 0px 0px 0px -78px;
+}
+.main__section-horario img {
+  display: inherit;
+  height: auto;
+  margin: 0px 0px 0px -35px;
+}
+}

@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+:root{
+  /*------ Colores */
+  --green-color: #7ACC2D;
+  --black-color: #313337;
+  --white-color: white;
+  /*------ Tipografía */
+  --normal:12px;
+  /*------ Espaciado */
+  --space:10px;
+  --space-2:20px;
+  /*------ Box shadow*/
+  --box:0px 0 2px 1px #e6e5e9;
+}
+html,body{
+    padding: 0%;
+    margin: 0%;
+    font-size: 18px;
+    font-family: 'Balsamiq Sans', cursive;
+    background-color: white;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #5dc5ee;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav__links a,
+.cta {
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: 500;
+  color: var(--black-color);
+  text-decoration: none;
+}
+.overlay__content a{
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-bottom: rgb(0, 143, 60) 1px solid;
+  border-radius: 8px;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+}
+
+.nav__links li {
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: color 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
+
+.cta {
+  background-image: url(/images/telephone.gif);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 40px;
+  margin-left: 20px;
+  padding: 8px 16px 8px 36px;
+  background-color: #fce87a;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.cta:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+/* Mobile Nav */
+
+.menu {
+  display: none;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: #24252a;
+  overflow-x: hidden;
+  transition: width 0.5s ease 0s;
+}
+
+.overlay--active {
+  width: 100%;
+}
+
+.overlay__content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay a {
+  padding: 15px;
+  font-size: 36px;
+  display: block;
+  transition: color 0.3s ease 0s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #0088a9;
+}
+.overlay .close {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  color: #edf0f1;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .close {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .nav__links,
+  .cta {
+    display: none;
+    background-image: url(/images/flecha-azul.gif);
+    background-size: 40px;
+  }
+  .menu {
+    display: initial;
+  }
+}
+  
+
+  /*------------MAIN CONTENT--------------*/
+
+  .main__content{
+    display: grid;
+    place-items: center;
+    background-image: url(../images/background-babygym.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 500px;
+  }
+
+  .title__cards{
+    background-image: url(../images/background-confetti.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .title__cards h2{
+    font-size: 60px;
+    margin: 0;
+    padding-top: 30px;
+    color: sandybrown;
+  }
+
+  .title__cards p{
+    color: rgb(12, 92, 68);
+  }
+
+  .visual p {
+    height: 100px;
+    width: 100%;
+    color: #006797;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    justify-content: space-between;
+    color:  rgb(12, 92, 68);
+  }
+  .card ul{
+    list-style: inside;
+    text-align: left;
+    margin: -20px 0px 50px 0px;
+    color: steelblue;
+    margin-bottom: 20px;
+  }
+
+  .card h3{
+    margin-top:0px;
+  }
+
+  .content__info{
+      background-image: url(/images/background_nubes.jpg);
+      background-repeat: no-repeat;
+      background-size: 200%;
+      background-position: bottom;
+  }
+
+  .content__info-text{
+    color: #006797;
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .content__info-text h1{
+    text-align: center;
+  }
+
+  .content__info-text p{
+    text-align: center;
+  }
+
+  .content__info-img{
+    text-align: center;
+    padding-top: 70px;
+    background-image: url(../images/gym-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+  }
+
+  strong{
+      color: rgb(12, 92, 68);
+  }
+
+  .programs__title h2{
+    background-image: url(../images/bg-rectangle.gif);
+    background-color: coral;
+    color: coral;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding:3vh;
+    font-size: 35px;
+  }
+
+  .programs{
+    text-align: center;
+    grid-gap: 0rem;
+  }
+
+  .programs__kids-land {
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/background-kidsland-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+  }
+
+  .programs__baby-gym{
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/background-babygym-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .programs__proyecto-huerto{
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/background-huerto-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+  }
+
+  .programs__baby-music{
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/background-babymusic-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+  }
+
+  .programs__baby-english{
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/background-babyenglish-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
+  }
+  
+  .programs__kids-land a,
+  .programs__baby-gym a, 
+  .programs__proyecto-huerto a,
+  .programs__baby-music a,
+  .programs__baby-english a{
+    text-decoration: none;
+    color: tan;
+    font-size: 23px;
+    border-bottom: 1px solid thistle;
+    border-style: ridge;
+  }
+  /*-------------FOOTER---------------*/
+  footer{
+    background: #f1f1f1;
+    padding: 90px 0px;
+  }
+  
+  .footer-container{
+    max-width: 1300px;
+    margin: -35px 0px 0px 0px;
+    padding: 0px 30px 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+  }
+  
+  .logo{
+    width: 180px;
+  }
+  
+  .social-media{
+    margin: 20px 0;
+  }
+  
+  .social-media-text{
+    margin: 15px 0px 0px 0px
+  }
+  
+  .social-media a{
+    color: #001a21;
+    margin: 8px 25px 0px 0px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: .3s linear;
+  }
+  
+  .social-media a:hover{
+    color: #fc5c65;
+  }
+  
+  .right-col h1{
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  
+  .rights-text{
+    margin: 8px 0px 0px 0px;
+  }
+  
+  .right-col-p{
+    margin: 20px 0px 10px 0px;
+  }
+  
+  .border{
+    width: 100px;
+    height: 4px;
+    background: #fc5c65;
+  }
+  
+  .newsletter-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .txtb{
+    flex: 1;
+    padding: 16px 0px 20px 40px;
+    font-size: 16px;
+    color: #293043;
+    background: #ddd;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    min-width: 260px;
+  }
+  
+  .btn{
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #f1f1f1;
+    background: #fc5c65;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: opacity .3s linear;
+  }
+  
+  .btn:hover{
+    opacity: .7;
+  }
+  
+  .page-content{
+    min-height: 100vh;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

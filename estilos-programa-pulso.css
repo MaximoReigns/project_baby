@@ -1,0 +1,192 @@
+body{
+margin:0;
+padding:0;
+border:0;
+background-color: thistle;
+background-image: url(/images/background-notes-music.gif);
+}
+
+.container__pulso{
+background-image: 
+linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1)),
+url(images/bg-pulso.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom;
+height: 60vh;
+}
+.container__pulso--main{
+display: grid;
+place-items: center;
+}
+
+.title h2{
+background-image: url(/images/tag-colors.gif);
+background-repeat: no-repeat;
+background-position: center;
+margin: 0px 0px;
+padding: 20px 0px;
+text-align: center;
+border-top:  lightcoral 2px solid;
+border-left: none;
+border-right: none;
+border-bottom: lightcoral 2px solid;
+font-weight: bold;
+color: salmon;
+}
+
+.details{
+background-image: url(/images/background-confetti.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.details__box--1 h3,
+.details__box--2 h3,
+.details__box--3 h3{
+font-weight: normal;
+font-size: 30px;
+text-align: center;
+padding-top: 20px;
+color: rgb(12, 92, 68);
+}
+.details__box--1 p,
+.details__box--2 p,li,
+.details__box--3 p{
+color: #006797;
+}
+
+.details__box--1 p{
+padding-left: 50px;
+padding-right: 15px;
+text-align: left;
+}
+.bear{
+position: absolute;
+margin-top: -27px;
+}
+.baby-guitar {
+background-image: url(/images/arcoiris-2.gif);
+background-repeat: no-repeat;
+background-size: 150px;
+background-position: 110% 0%;
+padding-top: 40px;
+padding-left: 50px;
+
+}
+.details__box--2 img{
+position: absolute;
+margin-top: -29px;
+}
+.details__box--2 p{
+padding-left: 10px;
+text-align: center;
+}
+.details__box--2 li{
+border-bottom: black 1px solid;
+list-style-type: decimal;
+}
+.details__box--3{
+padding-left: 35px;
+padding-top: 30px;
+background-image: url(/images/rectangle.gif);
+background-repeat: no-repeat;
+background-size: 104% 82%;
+}
+.details__box--3 img{
+border-radius: 20px;
+}
+
+.programs__title h2{
+background-image: url(../images/bg-rectangle.gif);
+background-color: coral;
+color: coral;
+background-repeat: no-repeat;
+background-position: center;
+text-align: center;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-top: 0px;
+padding:3vh;
+font-size: 35px;
+}
+
+.programs{
+text-align: center;
+grid-gap: 0rem;
+}
+
+.programs__kids-land {
+background-image: 
+linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+url(../images/background-kidsland-2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+padding-top: 80px;
+}
+
+.programs__baby-gym{
+background-image: 
+linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+url(../images/background-babygym-1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+padding-top: 80px;
+}
+
+.programs__proyecto-huerto{
+background-image: 
+linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+url(../images/background-huerto-1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+padding-top: 80px;
+}
+
+.programs__baby-music{
+background-image: 
+linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+url(../images/background-babymusic-1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+padding-top: 80px;
+}
+
+.programs__baby-english{
+background-image: 
+linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+url(../images/background-babyenglish-1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 80px 0px;
+}
+  
+.programs__kids-land a,
+.programs__baby-gym a, 
+.programs__proyecto-huerto a,
+.programs__baby-music a,
+.programs__baby-english a{
+text-decoration: none;
+color: tan;
+font-size: 23px;
+border-bottom: 1px solid thistle;
+border-style: ridge;
+}
+
